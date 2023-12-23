@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+.cabecalho{
+    min-height: 100vh;
+    background: #565164;
+    
+}
+.navbar{
+    display: flex;  
+    text-align: center;
+    justify-content: center;
+   width: 100%;
+   position: absolute;
+
+}
+.navbar ul{
+    margin: 40px;
+    
+}
+.navbar img{
+    top: 10%;
+    width: 10%;
+    height: 80%;
+    left: 0;
+    position: absolute;
+    transition: .3s;
+   
+}
+.navbar img:hover{
+    scale: 1.2;
+}
+
+.navbar ul li{
+    display: inline-block;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 2px white;
+    transition: .3s ease-in-out;
+}
+.navbar ul a{
+    margin: 0 30px;
+}
+.navbar ul li:hover{
+    scale: 1.2;
+    text-shadow: 0 0 20px white;
+   
+}
+
+.logo{
+    height: 100vh;
+    background: #726c81;
+    overflow: hidden;
+  
+}
+.logo img{
+    width: 500px;
+    height: 110vh;
+
+
+}
+.tamanho{
+    display: flex;
+    justify-content: space-between;
+    
+     
+}
+.tamanho h1{
+    color: white;
+    text-shadow: 0 0 10px white;
+    font-size: 7em;
+    letter-spacing: 10px;
+
+}
+.tamanho p{
+    color: #2c2b2b;
+    font-size: 1.6em;
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.685);
+   
+}
+.texto{
+    text-align: center;
+    padding-left: 100px;
+    margin-top: 270px;
+}
+.meio{
+    height: 100vh;
+    background: #565164;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px black;
+    position: relative;
+}
+.texto2 h2{
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-size: 2em;
+    letter-spacing: 10px;
+}
+.texto2 p{
+    padding-top: 50px;
+    color: #2c2b2b;
+    font-size: 1.2em;
+    line-height: 30px;
+    
+}
+.texto2{
+    flex-direction: column;
+}
+
+#foto{
+    height: 100vh;
+    background: #726c81;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    overflow: hidden;
+    
+}
+#foto h2{
+
+    color: white;
+    text-shadow: 0 0 10px white;
+    font-size: 3em;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+   
+}
+#foto p{
+    letter-spacing: 1px;
+    color: #2c2b2b;
+    font-size: 1.2em;
+    line-height: 35px;
+    margin-bottom: 100px;
+  
+}
+#foto img{
+    height: 100vh;
+ 
+}
+
+.texto3 a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 50px;
+    background: #4a484d77;
+    position: absolute;
+    left: 10%;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+}
+.texto3 a:hover{
+    scale: 1.1;
+    text-shadow: 0 0 10px white;
+}
+.info2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    line-height: 40x;
+    margin-left: 100px;
+    
+}
+#cont{
+    height: 100vh;
+    width: 100%;
+    background: #565164;
+    box-shadow: 0 0 20px black;
+    position: relative;
+}
+#cont h2{
+    left: 5%;
+    top: 15%;
+    position: absolute;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 0 0 5px white;
+    font-size: 2.2em;
+    letter-spacing: 2px;
+}
+#cont video{
+    width: 50%;
+    filter:brightness(80%) ;
+    left: 5%;
+    top: 30%;
+    position: absolute;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.507);
+}
+
+.botao2 h3{
+    position: absolute;
+    top: 60%;
+    right: 8%;
+    text-shadow: 0 0 5px white;
+    font-size: 1.5em;
+    color: white;
+    letter-spacing: 1px;
+}
+.botao2 a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px 50px;
+    background: #4a484d77;
+    letter-spacing: 1px;
+    transition: .3s ease-in-out;
+    position: absolute;
+    top: 70%;
+    right: 14%;
+}
+.botao2 a:hover{
+    scale: 1.1;
+    text-shadow: 0 0 10px white;
+}
+.final{
+    height: 50vh;
+    background: #726c81;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.final h3{
+    color: white;
+    font-size: 7em;
+    text-shadow: 0 0 10px white;
+}
